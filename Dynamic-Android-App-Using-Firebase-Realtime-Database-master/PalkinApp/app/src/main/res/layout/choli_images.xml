@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="3dp"
+   >
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/rTitleView"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="title"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="20dp">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/rImageView"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="85dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/rTitleView"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:padding="2dp" />
+
+            <TextView
+                android:id="@+id/price_text_view"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/rImageView"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="Price"
+                android:drawableLeft="@drawable/ic_rupee"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/descri"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/price_text_view"
+                android:layout_marginTop="9dp"
+                android:text="Long press for more details"
+                android:textStyle="italic"
+                />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

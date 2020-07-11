@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.tabs.TabLayout
+        app:tabTextAppearance="@style/MyCustomTextAppearance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        app:tabMode="scrollable"
+        app:tabMaxWidth="0dp"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="#118df0"
+        app:tabSelectedTextColor="#3b3b3b"
+        app:tabTextColor="#a9a9b0"
+        android:id="@+id/tablayout" />
+
+
+
+
+</LinearLayout>

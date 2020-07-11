@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Palkin Designers</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="remove_user">Remove user</string>
+    <string name="already_registered_login_me">Already Registered.Login Me</string>
+
+</resources>

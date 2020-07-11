@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "447715524787",
+    "firebase_url": "https://fliply1.firebaseio.com",
+    "project_id": "fliply1",
+    "storage_bucket": "fliply1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447715524787:android:820ca17cbeb94cd72470c6",
+        "android_client_info": {
+          "package_name": "com.example.uploadapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447715524787-otm7pib635nadvnc4im7dneklo0599vf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGd8gsqyX0VB_zAE2-BfD62jscsOePt4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447715524787-otm7pib635nadvnc4im7dneklo0599vf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447715524787:android:128249dd6b18922c2470c6",
+        "android_client_info": {
+          "package_name": "com.wolfsoft.fliply"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447715524787-qp2a6bbuk38qr2q5ke1pdigcaqlipc1o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wolfsoft.fliply",
+            "certificate_hash": "1d053f7c1498f7269c244eb5b2d305a53f488573"
+          }
+        },
+        {
+          "client_id": "447715524787-otm7pib635nadvnc4im7dneklo0599vf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGd8gsqyX0VB_zAE2-BfD62jscsOePt4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447715524787-otm7pib635nadvnc4im7dneklo0599vf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
